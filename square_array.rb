@@ -6,9 +6,7 @@
 # return newArr
 # end
 def square_array(array)
-  newArr=[]
-  array.collect{ |i|
-  newArr<<(i**2)}
+  array.collect{|i| i**2}
 end
-return newArr
+
 end
