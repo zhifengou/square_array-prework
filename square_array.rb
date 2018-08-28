@@ -7,8 +7,8 @@
 # end
 def square_array(array)
   newArr=[]
-  array.collect do |i|
-  newArr<<(i**2)
+  array.collect{ |i|
+  newArr<<(i**2)}
 end
 return newArr
 end
